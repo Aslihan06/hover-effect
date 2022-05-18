@@ -27,7 +27,3 @@ body{
     transform: perspective(800px) rotateY(0deg);
     opacity: 1;
 }
-.rose{
-    width: 19rem;
-    height: 14rem;
-}
