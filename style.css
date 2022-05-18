@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100w;
+    height: 100vh;
+    background-color: #262626;
+}
+.container img {
+    margin-right: 50px;
+    max-width: 350px;
+    transform-origin: center;
+    transform: perspective(500px) rotateY(30deg);
+    transition: transform .5s,opacity .5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004)
+
+}
+.container:hover img{
+    opacity: .5;
+}
+.container img:hover{
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
+.rose{
+    width: 19rem;
+    height: 14rem;
+}
